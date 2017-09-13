@@ -67,7 +67,7 @@ class TicTacToe {
         if (this.winner === null) {
 
             return this.noMoreTurns();
-        } else if (this.winner === 'x' || this.winner === 'o') {
+        } else {
             return false;
         }
     }
